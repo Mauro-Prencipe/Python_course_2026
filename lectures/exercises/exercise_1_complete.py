@@ -1,5 +1,4 @@
 # Exercise 1
-# 10/02/2025
 
 # Read a list from the file "ex_1_data_in.dat" file. 
 # Take the square root of each element of the list and 
@@ -53,3 +52,4 @@ data_total=np.transpose(data_total)
 
 # Save the array in the file file_out
 np.savetxt(file_out, data_total, fmt='%.2f %.4f')
+
