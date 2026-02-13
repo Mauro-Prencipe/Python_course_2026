@@ -17,7 +17,7 @@ plt.xlabel('X')
 plt.ylabel('Y')
 plt.show()
 
-Mini.set_expand(1.2)
+Mini.set_range(1.2)
 Mini.set_precision(1e-9)
 Mini.info()
 Mini.findmin(polyfun, 0.5)
